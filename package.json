@@ -1,0 +1,25 @@
+{
+  "name": "staffapi",
+  "version": "1.0.0",
+  "description": "this a staff microservice for school",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.10.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "microservice",
+    "api",
+    "staff"
+  ],
+  "author": "smilez",
+  "license": "ISC"
+}
