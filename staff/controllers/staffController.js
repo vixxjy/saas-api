@@ -29,7 +29,7 @@ exports.create_a_teacher = function(req, res) {
 
 
 exports.read_a_teacher = function(req, res) {
-  Teacher.findById(req.params.taskId, function(err, teacher) {
+  Teacher.findById(req.params.teacherId, function(err, teacher) {
     if (err){
       res.send(err);
     }else{
